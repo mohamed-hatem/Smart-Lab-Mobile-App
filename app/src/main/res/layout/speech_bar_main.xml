@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.smartlabapplication.UI.SpeechUI">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/voice_btn"
+            android:text="@string/press_and_hold"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="40dp"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            />
+
+
+        <ImageButton
+            android:id="@+id/voice_btn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_corner"
+            android:src="@drawable/baseline_keyboard_voice_white_48dp"
+            />
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/voice_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="40dp"
+            android:background="@drawable/text_rounded_corner"
+            android:backgroundTint="#FFFFFF"
+            android:hint="  Voice"
+            android:inputType="none"
+            android:singleLine="false"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "175709014908",
+    "firebase_url": "https://fiwareproject-545c1.firebaseio.com",
+    "project_id": "fiwareproject-545c1",
+    "storage_bucket": "fiwareproject-545c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175709014908:android:2d279d6276ac7e42",
+        "android_client_info": {
+          "package_name": "com.example.android.smartlabapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175709014908-3e3fk7jis8n42m6srrvklrdav681bbno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwFrIepSHi0Hb79x-MZwb9jKVL95019ZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175709014908-3e3fk7jis8n42m6srrvklrdav681bbno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
